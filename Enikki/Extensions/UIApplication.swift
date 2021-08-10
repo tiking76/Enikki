@@ -1,4 +1,4 @@
-import SwiftUI
+import UIKit
 
 extension UIApplication {
     func closeKeyboard() {
