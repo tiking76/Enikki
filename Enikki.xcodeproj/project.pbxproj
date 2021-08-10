@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11B781DA26C245C100B92CF0 /* SketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781D926C245C100B92CF0 /* SketchView.swift */; };
 		11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DB26C246D800B92CF0 /* Pencil.swift */; };
 		11B781DF26C2527600B92CF0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DE26C2527600B92CF0 /* TextView.swift */; };
 		11B781E126C2531D00B92CF0 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781E026C2531D00B92CF0 /* TextEditor.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		0089F561DAF0D76D1AD686EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11B781D926C245C100B92CF0 /* SketchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchView.swift; sourceTree = "<group>"; };
 		11B781DB26C246D800B92CF0 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
 		11B781DE26C2527600B92CF0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		11B781E026C2531D00B92CF0 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 		11B781D826C245A600B92CF0 /* Draw */ = {
 			isa = PBXGroup;
 			children = (
-				11B781D926C245C100B92CF0 /* SketchView.swift */,
 				11B781DB26C246D800B92CF0 /* Pencil.swift */,
 			);
 			path = Draw;
@@ -187,7 +184,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B781DA26C245C100B92CF0 /* SketchView.swift in Sources */,
 				9CBDFC1B822B546DA19FF93B /* Color.swift in Sources */,
 				67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */,
 				DD343A44934D0CE354FC6538 /* Date.swift in Sources */,

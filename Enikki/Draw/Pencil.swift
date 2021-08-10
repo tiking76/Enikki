@@ -8,11 +8,11 @@
 import SwiftUI
 import PencilKit
 
-struct NewPaint {
+struct SketchView {
     @Binding var canvasView: PKCanvasView
 }
 
-extension NewPaint: UIViewRepresentable {
+extension SketchView: UIViewRepresentable {
     
     typealias UIViewType = PKCanvasView
 
