@@ -1,0 +1,9 @@
+name: Enikki
+options:
+  bundleIdPrefix: tiking.Enikki
+targets:
+  Enikki:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: Enikki
