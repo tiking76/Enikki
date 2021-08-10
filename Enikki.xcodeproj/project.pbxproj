@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		13074FE934F6340EB24787B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1249370FA92B488FD61017 /* Preview Assets.xcassets */; };
+		2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F854188437813CB8ABA76 /* Padding.swift */; };
+		40636169330ED55587754506 /* Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1449E2972E3BA15BE4924A /* Hidden.swift */; };
 		45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F60DE7C159959B06999C0 /* EnikkiApp.swift */; };
 		67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6099D06EB7905CBEA9003 /* ContentView.swift */; };
+		9CBDFC1B822B546DA19FF93B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F561DAF0D76D1AD686EC /* Color.swift */; };
+		A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEB6B922EC8624C7C05241 /* Font.swift */; };
 		CB331F7D38AC6A7BFB892165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */; };
+		DD343A44934D0CE354FC6538 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077EB35B122D47C0B0BFBBA /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0089F561DAF0D76D1AD686EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128759C8952527F5658AA94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		198F60DE7C159959B06999C0 /* EnikkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnikkiApp.swift; sourceTree = "<group>"; };
+		4B1449E2972E3BA15BE4924A /* Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
+		5077EB35B122D47C0B0BFBBA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		57FEB6B922EC8624C7C05241 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		8B1249370FA92B488FD61017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D1F854188437813CB8ABA76 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		9EA6099D06EB7905CBEA9003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED2ACE288C4F4E8A04FA5B88 /* Enikki.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Enikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -47,6 +57,25 @@
 			);
 			sourceTree = "<group>";
 		};
+		5E749917CD11BED0586DB078 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0089F561DAF0D76D1AD686EC /* Color.swift */,
+				5077EB35B122D47C0B0BFBBA /* Date.swift */,
+				57FEB6B922EC8624C7C05241 /* Font.swift */,
+				9D1F854188437813CB8ABA76 /* Padding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6971441450C584683AB120CD /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				4B1449E2972E3BA15BE4924A /* Hidden.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		7C10F9C562180F47598F57FC /* Enikki */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +83,19 @@
 				9EA6099D06EB7905CBEA9003 /* ContentView.swift */,
 				198F60DE7C159959B06999C0 /* EnikkiApp.swift */,
 				128759C8952527F5658AA94E /* Info.plist */,
+				5E749917CD11BED0586DB078 /* Extensions */,
 				23005F0447CAEE9FA8D4128C /* Preview Content */,
+				A3FCFD2A8E2578A018732C3C /* Utility */,
 			);
 			path = Enikki;
+			sourceTree = "<group>";
+		};
+		A3FCFD2A8E2578A018732C3C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6971441450C584683AB120CD /* Modifier */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBDFC1B822B546DA19FF93B /* Color.swift in Sources */,
 				67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */,
+				DD343A44934D0CE354FC6538 /* Date.swift in Sources */,
 				45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */,
+				A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */,
+				40636169330ED55587754506 /* Hidden.swift in Sources */,
+				2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
