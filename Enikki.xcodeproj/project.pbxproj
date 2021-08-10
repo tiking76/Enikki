@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11B781DA26C245C100B92CF0 /* SketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781D926C245C100B92CF0 /* SketchView.swift */; };
+		11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DB26C246D800B92CF0 /* Pencil.swift */; };
 		13074FE934F6340EB24787B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1249370FA92B488FD61017 /* Preview Assets.xcassets */; };
 		2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F854188437813CB8ABA76 /* Padding.swift */; };
 		40636169330ED55587754506 /* Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1449E2972E3BA15BE4924A /* Hidden.swift */; };
@@ -23,6 +24,7 @@
 		0089F561DAF0D76D1AD686EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B781D926C245C100B92CF0 /* SketchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchView.swift; sourceTree = "<group>"; };
+		11B781DB26C246D800B92CF0 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
 		128759C8952527F5658AA94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		198F60DE7C159959B06999C0 /* EnikkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnikkiApp.swift; sourceTree = "<group>"; };
 		4B1449E2972E3BA15BE4924A /* Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				11B781D926C245C100B92CF0 /* SketchView.swift */,
+				11B781DB26C246D800B92CF0 /* Pencil.swift */,
 			);
 			path = Draw;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */,
 				DD343A44934D0CE354FC6538 /* Date.swift in Sources */,
 				45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */,
+				11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */,
 				A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */,
 				40636169330ED55587754506 /* Hidden.swift in Sources */,
 				2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */,
@@ -253,7 +257,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9DZWZ2QDGB;
 				INFOPLIST_FILE = Enikki/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +330,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9DZWZ2QDGB;
 				INFOPLIST_FILE = Enikki/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
