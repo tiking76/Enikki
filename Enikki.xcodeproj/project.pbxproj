@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11B781DA26C245C100B92CF0 /* SketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781D926C245C100B92CF0 /* SketchView.swift */; };
 		11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DB26C246D800B92CF0 /* Pencil.swift */; };
+		11B781DF26C2527600B92CF0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DE26C2527600B92CF0 /* TextView.swift */; };
+		11B781E126C2531D00B92CF0 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781E026C2531D00B92CF0 /* TextEditor.swift */; };
 		13074FE934F6340EB24787B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1249370FA92B488FD61017 /* Preview Assets.xcassets */; };
 		2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F854188437813CB8ABA76 /* Padding.swift */; };
 		40636169330ED55587754506 /* Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1449E2972E3BA15BE4924A /* Hidden.swift */; };
@@ -25,6 +27,8 @@
 		0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B781D926C245C100B92CF0 /* SketchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchView.swift; sourceTree = "<group>"; };
 		11B781DB26C246D800B92CF0 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		11B781DE26C2527600B92CF0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		11B781E026C2531D00B92CF0 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		128759C8952527F5658AA94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		198F60DE7C159959B06999C0 /* EnikkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnikkiApp.swift; sourceTree = "<group>"; };
 		4B1449E2972E3BA15BE4924A /* Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 				11B781DB26C246D800B92CF0 /* Pencil.swift */,
 			);
 			path = Draw;
+			sourceTree = "<group>";
+		};
+		11B781DD26C250A900B92CF0 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				11B781DE26C2527600B92CF0 /* TextView.swift */,
+				11B781E026C2531D00B92CF0 /* TextEditor.swift */,
+			);
+			path = Editor;
 			sourceTree = "<group>";
 		};
 		23005F0447CAEE9FA8D4128C /* Preview Content */ = {
@@ -92,6 +105,7 @@
 		7C10F9C562180F47598F57FC /* Enikki */ = {
 			isa = PBXGroup;
 			children = (
+				11B781DD26C250A900B92CF0 /* Editor */,
 				11B781D826C245A600B92CF0 /* Draw */,
 				0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */,
 				9EA6099D06EB7905CBEA9003 /* ContentView.swift */,
@@ -179,9 +193,11 @@
 				DD343A44934D0CE354FC6538 /* Date.swift in Sources */,
 				45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */,
 				11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */,
+				11B781E126C2531D00B92CF0 /* TextEditor.swift in Sources */,
 				A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */,
 				40636169330ED55587754506 /* Hidden.swift in Sources */,
 				2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */,
+				11B781DF26C2527600B92CF0 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
