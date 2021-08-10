@@ -7,41 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		118E2FE926C26FCD0065CEEB /* DateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E2FE826C26FCD0065CEEB /* DateListView.swift */; };
-		118E2FF026C271350065CEEB /* Enikki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 118E2FEE26C271350065CEEB /* Enikki.xcdatamodeld */; };
-		118E2FF226C271970065CEEB /* DiaryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E2FF126C271970065CEEB /* DiaryItems.swift */; };
-		11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DB26C246D800B92CF0 /* Pencil.swift */; };
-		11B781DF26C2527600B92CF0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781DE26C2527600B92CF0 /* TextView.swift */; };
-		11B781E126C2531D00B92CF0 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B781E026C2531D00B92CF0 /* TextEditor.swift */; };
 		13074FE934F6340EB24787B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1249370FA92B488FD61017 /* Preview Assets.xcassets */; };
+		24379E78ACF064EEDEEE5DE7 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079EBFFF8CB14E6394E0C601 /* Pencil.swift */; };
+		2B8818E4542CD4EDDC8F60A4 /* DiaryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC7781BFB22279FC239E03 /* DiaryItems.swift */; };
 		2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F854188437813CB8ABA76 /* Padding.swift */; };
 		40636169330ED55587754506 /* Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1449E2972E3BA15BE4924A /* Hidden.swift */; };
 		45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F60DE7C159959B06999C0 /* EnikkiApp.swift */; };
+		5FE6455AE7484A1C0DA937CE /* DiaryItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38F35BF4D84FB600685A6F8F /* DiaryItems.xcdatamodeld */; };
 		67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6099D06EB7905CBEA9003 /* ContentView.swift */; };
+		71E4D16DC25F2FB12011748D /* Enikki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 121C18489665B0646F8E16E9 /* Enikki.xcdatamodeld */; };
+		896170E57E3A62967DABEC80 /* Data+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031894191FFC28F92D56B26B /* Data+Image.swift */; };
 		9CBDFC1B822B546DA19FF93B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F561DAF0D76D1AD686EC /* Color.swift */; };
 		A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEB6B922EC8624C7C05241 /* Font.swift */; };
+		B0A09DA0CB7919CF5EEC6C30 /* DateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EEB6AA80EEE0235D64087E /* DateListView.swift */; };
+		C78365CC64F2053E6F5A5234 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A417F64ACD73E9BC3EFA9B1 /* TextEditor.swift */; };
 		CB331F7D38AC6A7BFB892165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */; };
+		CBB822768924CAD3AF7AA988 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268925FFFFED58ACFA88F8ED /* TextView.swift */; };
 		DD343A44934D0CE354FC6538 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077EB35B122D47C0B0BFBBA /* Date.swift */; };
+		E1C1B054335B8AB80D6E093F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48A233A9FD8F233E9C304C /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0089F561DAF0D76D1AD686EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		02BC7781BFB22279FC239E03 /* DiaryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryItems.swift; sourceTree = "<group>"; };
+		031894191FFC28F92D56B26B /* Data+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Image.swift"; sourceTree = "<group>"; };
+		079EBFFF8CB14E6394E0C601 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		0A417F64ACD73E9BC3EFA9B1 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		118E2FE826C26FCD0065CEEB /* DateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListView.swift; sourceTree = "<group>"; };
-		118E2FEF26C271350065CEEB /* Enikki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Enikki.xcdatamodel; sourceTree = "<group>"; };
-		118E2FF126C271970065CEEB /* DiaryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryItems.swift; sourceTree = "<group>"; };
-		11B781DB26C246D800B92CF0 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
-		11B781DE26C2527600B92CF0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		11B781E026C2531D00B92CF0 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		128759C8952527F5658AA94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1701B1BAE2318CC8BB58D593 /* DiaryItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiaryItems.xcdatamodel; sourceTree = "<group>"; };
 		198F60DE7C159959B06999C0 /* EnikkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnikkiApp.swift; sourceTree = "<group>"; };
+		268925FFFFED58ACFA88F8ED /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		4B1449E2972E3BA15BE4924A /* Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
 		5077EB35B122D47C0B0BFBBA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		57FEB6B922EC8624C7C05241 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		8B1249370FA92B488FD61017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D1F854188437813CB8ABA76 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		9EA6099D06EB7905CBEA9003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ED2ACE288C4F4E8A04FA5B88 /* Enikki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA782D510EEFA454B7F0A70 /* Enikki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Enikki.xcdatamodel; sourceTree = "<group>"; };
+		B0EEB6AA80EEE0235D64087E /* DateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListView.swift; sourceTree = "<group>"; };
+		ED2ACE288C4F4E8A04FA5B88 /* Enikki.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Enikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF48A233A9FD8F233E9C304C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -53,38 +59,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		118E2FEA26C270C00065CEEB /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				118E2FEE26C271350065CEEB /* Enikki.xcdatamodeld */,
-				118E2FF126C271970065CEEB /* DiaryItems.swift */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
-		11B781D826C245A600B92CF0 /* Draw */ = {
-			isa = PBXGroup;
-			children = (
-				11B781DB26C246D800B92CF0 /* Pencil.swift */,
-			);
-			path = Draw;
-			sourceTree = "<group>";
-		};
-		11B781DD26C250A900B92CF0 /* Editor */ = {
-			isa = PBXGroup;
-			children = (
-				11B781DE26C2527600B92CF0 /* TextView.swift */,
-				11B781E026C2531D00B92CF0 /* TextEditor.swift */,
-			);
-			path = Editor;
-			sourceTree = "<group>";
-		};
 		23005F0447CAEE9FA8D4128C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				8B1249370FA92B488FD61017 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		271DE861AB579AFF405F9DB4 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				079EBFFF8CB14E6394E0C601 /* Pencil.swift */,
+			);
+			path = Draw;
 			sourceTree = "<group>";
 		};
 		30D6E9C2C23527BBBBAF523C = {
@@ -99,9 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				0089F561DAF0D76D1AD686EC /* Color.swift */,
+				031894191FFC28F92D56B26B /* Data+Image.swift */,
 				5077EB35B122D47C0B0BFBBA /* Date.swift */,
 				57FEB6B922EC8624C7C05241 /* Font.swift */,
 				9D1F854188437813CB8ABA76 /* Padding.swift */,
+				FF48A233A9FD8F233E9C304C /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -117,17 +107,17 @@
 		7C10F9C562180F47598F57FC /* Enikki */ = {
 			isa = PBXGroup;
 			children = (
-				118E2FEA26C270C00065CEEB /* DB */,
-				11B781DD26C250A900B92CF0 /* Editor */,
-				11B781D826C245A600B92CF0 /* Draw */,
 				0FC07C1B9CD85E83F668A3B0 /* Assets.xcassets */,
 				9EA6099D06EB7905CBEA9003 /* ContentView.swift */,
+				B0EEB6AA80EEE0235D64087E /* DateListView.swift */,
 				198F60DE7C159959B06999C0 /* EnikkiApp.swift */,
 				128759C8952527F5658AA94E /* Info.plist */,
+				EB9D91591114B5E5364AC733 /* DB */,
+				271DE861AB579AFF405F9DB4 /* Draw */,
+				F4A3887D446A2B9BFC266AAD /* Editor */,
 				5E749917CD11BED0586DB078 /* Extensions */,
 				23005F0447CAEE9FA8D4128C /* Preview Content */,
 				A3FCFD2A8E2578A018732C3C /* Utility */,
-				118E2FE826C26FCD0065CEEB /* DateListView.swift */,
 			);
 			path = Enikki;
 			sourceTree = "<group>";
@@ -138,6 +128,25 @@
 				6971441450C584683AB120CD /* Modifier */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		EB9D91591114B5E5364AC733 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				02BC7781BFB22279FC239E03 /* DiaryItems.swift */,
+				38F35BF4D84FB600685A6F8F /* DiaryItems.xcdatamodeld */,
+				121C18489665B0646F8E16E9 /* Enikki.xcdatamodeld */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		F4A3887D446A2B9BFC266AAD /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				0A417F64ACD73E9BC3EFA9B1 /* TextEditor.swift */,
+				268925FFFFED58ACFA88F8ED /* TextView.swift */,
+			);
+			path = Editor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +175,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 2ECDADF88818F4C804506508 /* Build configuration list for PBXProject "Enikki" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -203,17 +214,20 @@
 			files = (
 				9CBDFC1B822B546DA19FF93B /* Color.swift in Sources */,
 				67ECE5BDD3287C2D3BF6F312 /* ContentView.swift in Sources */,
-				118E2FF026C271350065CEEB /* Enikki.xcdatamodeld in Sources */,
+				896170E57E3A62967DABEC80 /* Data+Image.swift in Sources */,
 				DD343A44934D0CE354FC6538 /* Date.swift in Sources */,
+				B0A09DA0CB7919CF5EEC6C30 /* DateListView.swift in Sources */,
+				2B8818E4542CD4EDDC8F60A4 /* DiaryItems.swift in Sources */,
+				5FE6455AE7484A1C0DA937CE /* DiaryItems.xcdatamodeld in Sources */,
+				71E4D16DC25F2FB12011748D /* Enikki.xcdatamodeld in Sources */,
 				45BCB4DCFD07A1BA13DF5B34 /* EnikkiApp.swift in Sources */,
-				118E2FE926C26FCD0065CEEB /* DateListView.swift in Sources */,
-				11B781DC26C246D800B92CF0 /* Pencil.swift in Sources */,
-				118E2FF226C271970065CEEB /* DiaryItems.swift in Sources */,
-				11B781E126C2531D00B92CF0 /* TextEditor.swift in Sources */,
 				A4C9EF75AC47515A5FDA863B /* Font.swift in Sources */,
 				40636169330ED55587754506 /* Hidden.swift in Sources */,
 				2E80738AF64139BE0C3BDC5B /* Padding.swift in Sources */,
-				11B781DF26C2527600B92CF0 /* TextView.swift in Sources */,
+				24379E78ACF064EEDEEE5DE7 /* Pencil.swift in Sources */,
+				C78365CC64F2053E6F5A5234 /* TextEditor.swift in Sources */,
+				CBB822768924CAD3AF7AA988 /* TextView.swift in Sources */,
+				E1C1B054335B8AB80D6E093F /* UIApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +301,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 9DZWZ2QDGB;
 				INFOPLIST_FILE = Enikki/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,7 +373,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 9DZWZ2QDGB;
 				INFOPLIST_FILE = Enikki/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -397,13 +409,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		118E2FEE26C271350065CEEB /* Enikki.xcdatamodeld */ = {
+		121C18489665B0646F8E16E9 /* Enikki.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				118E2FEF26C271350065CEEB /* Enikki.xcdatamodel */,
+				9EA782D510EEFA454B7F0A70 /* Enikki.xcdatamodel */,
 			);
-			currentVersion = 118E2FEF26C271350065CEEB /* Enikki.xcdatamodel */;
+			currentVersion = 9EA782D510EEFA454B7F0A70 /* Enikki.xcdatamodel */;
 			path = Enikki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		38F35BF4D84FB600685A6F8F /* DiaryItems.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1701B1BAE2318CC8BB58D593 /* DiaryItems.xcdatamodel */,
+			);
+			currentVersion = 1701B1BAE2318CC8BB58D593 /* DiaryItems.xcdatamodel */;
+			path = DiaryItems.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

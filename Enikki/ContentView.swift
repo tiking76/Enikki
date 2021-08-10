@@ -8,10 +8,11 @@
 import SwiftUI
 import PencilKit
 
-struct ContentView: View {
+struct ItemView: View {
     @State private var canvasView = PKCanvasView()
-    @State var text: String = ""
-    @State var flag: Bool  = true
+    @State private var text: String = ""
+    @State private var flag: Bool  = true
+    private let dateString: String
     var body: some View {
         VStack {
             ZStack {
@@ -47,7 +48,7 @@ struct ContentView: View {
                 flag = false
             }
             // Todo: 日付可変に変える
-            Text("8/10")
+            Text(dateString)
                 .font(.h1)
                 .padding(.vertical, Padding.XS)
             ZStack {
@@ -68,11 +69,5 @@ struct ContentView: View {
                 }
             }
         }
-    }
-}
-
-extension UIApplication {
-    func closeKeyboard() {
-        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
