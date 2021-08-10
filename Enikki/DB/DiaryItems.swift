@@ -14,7 +14,7 @@ public class DiaryItems: NSManagedObject, Identifiable {
     @NSManaged public var image: Data
 
     static func getAllMemoItems() -> NSFetchRequest<Enikki> {
-        let request: NSFetchRequest<Enikki> = Enikki.fetchRequest() as! NSFetchRequest<Enikki>
+        let request: NSFetchRequest<Enikki> = Enikki.fetchRequest()
         request.sortDescriptors = [NSSortDescriptor(key: "createdAt", ascending: true)]
         return request
     }
